@@ -1,5 +1,7 @@
-s = 0
-for c in range (0,501,3):
-     print(c)
-     s += c
-print('o somatorio foi de {}'.format(s))
+soma = 0
+cont = 0
+for c in range(1, 501, 2):
+    if c < 30:
+        cont += 1
+    soma += c
+print("A soma de todos os {} valores solicitados é {}.".format(cont, soma))
